@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-ios-frameworks"
-    version="1.0.0">
-    <name>iOS Framework Additions</name>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-ios-frameworks" version="1.0.0">
+    <name>iOS Frameworks</name>
     <description>Add additional libraries/frameworks to your Xcode project on Prepare/Build/Run</description>
-    <license>MIT</license>
+    <license>Apache License, Version 2.0</license>
     <keywords>ionic,cordova,phonegap,ios,xcode,frameworks,binary,additions</keywords>
     <repo>https://github.com/NestedLooper/cordova-plugin-ios-frameworks.git</repo>
     <issue>https://github.com/NestedLooper/cordova-plugin-ios-frameworks/issues</issue>
-
     <!-- ios only -->
     <platform name="ios">
         <js-module src="www/plugin.js" name="plugin">
@@ -23,22 +19,21 @@
         </config-file>
         <header-file src="src/ios/iOSFrameworks.h" />
         <source-file src="src/ios/iOSFrameworks.m" />
-
         <!-- Add your additional iOS frameworks below -->
-        <framework src="AdSupport.framework"/>
-        <framework src="CFNetwork.framework"/>
-        <framework src="CoreFoundation.framework"/>
-        <framework src="Foundation.framework"/>
-        <framework src="FrontBoardServices.framework"/>
-        <framework src="JavaScriptCore.framework"/>
-        <framework src="MobileCoreServices.framework"/>
-        <framework src="UIKit.framework"/>
-        <framework src="WebCore.framework"/>
-        <framework src="libdispatch.tbd"/>
-        <framework src="libdyld.tbd"/>
-        <framework src="libsystem_pthread.tbd"/>
-        <framework src="libsystem_platform.tbd"/>
-        <framework src="libsystem_malloc.tbd"/>
+        <framework src="AdSupport.framework" />
+        <framework src="CFNetwork.framework" />
+        <framework src="CoreFoundation.framework" />
+        <framework src="Foundation.framework" />
+        <framework src="FrontBoardServices.framework" />
+        <framework src="JavaScriptCore.framework" />
+        <framework src="MobileCoreServices.framework" />
+        <framework src="UIKit.framework" />
+        <framework src="WebCore.framework" />
+        <framework src="libdispatch.tbd" />
+        <framework src="libdyld.tbd" />
+        <framework src="libsystem_pthread.tbd" />
+        <framework src="libsystem_platform.tbd" />
+        <framework src="libsystem_malloc.tbd" />
         <!-- End Additional Frameworks -->
     </platform>
 </plugin>

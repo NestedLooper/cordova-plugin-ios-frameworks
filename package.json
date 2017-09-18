@@ -1,11 +1,16 @@
 {
   "name": "cordova-plugin-ios-frameworks",
   "version": "1.0.0",
+  "license": "Apache License, Version 2.0",
   "cordova": {
     "id": "cordova-plugin-ios-frameworks",
     "platforms": [
       "ios"
     ]
   },
-  "description": "Add additional libraries/frameworks to your Xcode project on Prepare/Build/Run"
+  "description": "Add additional libraries/frameworks to your Xcode project on Prepare/Build/Run",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NestedLooper/cordova-plugin-ios-frameworks"
+  }
 }
