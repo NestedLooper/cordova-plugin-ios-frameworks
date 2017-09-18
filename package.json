@@ -1,0 +1,11 @@
+{
+  "name": "cordova-plugin-ios-frameworks",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-plugin-ios-frameworks",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "description": "Add additional libraries/frameworks to your Xcode project on Prepare/Build/Run"
+}
